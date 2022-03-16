@@ -282,6 +282,16 @@ to a separate template for Methods.
 {% endfor %}
 ```
 
+# Existing Tools/Templates
+
+Template | Description | Status | Documentation |
+| ------------------ | ----------- | -------------------- |-------------------- |
+[dtdl.tpl](templates/dtdl.tpl) | Generates a DTDL description of the service | Functional | [documentation](templates/dtdl.md) |
+[protobuf.tpl](protobuf/dtdl.tpl) | Generates a Protobuf description of the service | Functional | [documentation](templates/protobuf.md) |
+[test.tpl](templates/test.tpl) | Dummy Example | Not Functional | - |
+[AST-simple_doc.tpl](templates/AST-simple_doc.tpl) | Very simple HTML generator | Functional | - |
+[simple_overview.tpl](templates/simple_overview.tpl) | Generates a textual overview of a service | Functional | - |
+
 # Future plans, new proposals and enhancements
 
 Please refer to [GitHub tickets](https://github.com/GENIVI/vsc-tools/issues)
